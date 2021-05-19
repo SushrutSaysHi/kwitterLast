@@ -1,0 +1,168 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #070807;
+  background-image: url(star.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; }
+
+.intro-section {
+  color: #fff; }
+
+.intro-content-wrapper {
+  width: 371px;
+  max-width: 100%; }
+  .intro-content-wrapper .intro-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 12px; }
+  .intro-content-wrapper .intro-text {
+    font-size: 14px;
+    line-height: 1.71;
+    margin-bottom: 27px; }
+  .intro-content-wrapper .signup-link-btn {
+    padding: 13px 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 22.5px;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: bold; }
+    .intro-content-wrapper .signup-link-btn:hover {
+      background-color: #fff;
+      color: #000; }
+    @media (max-width: 767px) {
+      .intro-content-wrapper .signup-link-btn {
+        margin-bottom: 35px; } }
+
+.brand-wrapper {
+  margin-bottom: 40px; }
+  .brand-wrapper .logo {
+    height: 35px; }
+
+.login-card {
+  padding-left: 86px;
+  width: 557px;
+  margin-left: 205px; }
+  @media (max-width: 767px) {
+    .login-card {
+      width: auto;
+      padding-left: 0;
+      margin-left: 0; } }
+  .login-card-img {
+    position: absolute;
+    width: 291px;
+    left: -205px;
+    border-radius: 8px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%); }
+    @media (max-width: 767px) {
+      .login-card-img {
+        display: none; } }
+  .login-card .card-body {
+    padding: 85px 60px 60px; }
+  .login-card-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px; }
+  .login-card-description {
+    font-size: 16px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 16px; }
+  .login-card .form-control {
+    border: 1px solid #f5f5f5;
+    padding: 16px 18px;
+    margin-bottom: 18px;
+    min-height: 48px;
+    font-size: 14px;
+    font-weight: normal; }
+    .login-card .form-control::-webkit-input-placeholder {
+      color: #b0adad; }
+    .login-card .form-control::-moz-placeholder {
+      color: #b0adad; }
+    .login-card .form-control:-ms-input-placeholder {
+      color: #b0adad; }
+    .login-card .form-control::-ms-input-placeholder {
+      color: #b0adad; }
+    .login-card .form-control::placeholder {
+      color: #b0adad; }
+  .login-card-check-box {
+    padding-left: 34px; }
+    @media (max-width: 767px) {
+      .login-card-check-box {
+        margin-bottom: 10px; } }
+    .login-card-check-box .custom-control-label::before {
+      width: 24px;
+      height: 21px;
+      border: solid 1px #f5f5f5;
+      left: -34px;
+      top: 0px; }
+    .login-card-check-box .custom-control-label::after {
+      left: -34px;
+      width: 24px;
+      height: 21px;
+      top: 0; }
+  .login-card .login-btn {
+    padding: 13px 20px;
+    background-color: #00b234;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff; }
+  .login-card-footer-text {
+    font-size: 13px;
+    color: #000;
+    text-align: center; }
+
+.login-wrapper {
+  width: 300px;
+  max-width: 100%;
+  color: #fff;
+  margin-bottom: 40px; }
+  .login-wrapper .form-group {
+    margin-bottom: 28px; }
+  .login-wrapper .form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 5px 3px;
+    font-size: 14px;
+    font-weight: bold; }
+  .login-wrapper .login-btn {
+    background-color: #ff3722;
+    padding: 13px 30px;
+    border-radius: 22.5px;
+    line-height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 17px; }
+  .login-wrapper .forgot-password-link {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: underline; }
+
+.login-title {
+  font-size: 30px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=login.css.map */
+
+
+#username{
+	color: white;
+}
+
+#password{
+	color: white;
+}
+
+.header
+{
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
